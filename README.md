@@ -13,8 +13,10 @@ Now give two more API endpoints which can be used to fetch the informantion rela
 An API which will take dataset_id and give the list of models which have been trained using that dataset
 
 ### Submission:
-*Put in your mongo credentials before running*
+
 Clone this repo in your local and make a new branch with your name, update the readme with the details related to how to use the application. Now commit the changes and push it. Please mention the information related to the implementation and used collections/document designs etc. Do not add any information above ------------ line of this readme file.
+
+*Put in your mongo credentials before running*
 Run mongo.py and give project_id as query.
 For example - http://192.168.29.160:81/project?id=607e2bb4383fa0b9dc012ba6
 This will put models and associated_datasets of project in mongo collections.
